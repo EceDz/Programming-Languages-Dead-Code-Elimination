@@ -2,7 +2,7 @@
 
 A small compiler-construction project (Flex + Bison, C) that performs **dead code elimination** on a simple three-address-code-style language. Given a list of assignment statements and a set of "live" (needed) output variables, the tool works backward through the code and prints only the statements that actually contribute to those outputs.
 
-This was built as a term project for a Programming Languages / Compilers course. A full write-up of the approach is included in [`Report.pdf`](Report.pdf).
+A full write-up of the approach is included in [`Report.pdf`](Report.pdf).
 
 ## How It Works
 
